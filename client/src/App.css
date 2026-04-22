@@ -1,0 +1,227 @@
+/* --- RESET & BASICS --- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a; /* Dark Navy Background */
+  color: #e2e8f0; /* Light Gray Text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* --- UTILITIES --- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* --- LOGIN PAGE --- */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #475569;
+}
+
+.login-icon {
+  background: rgba(59, 130, 246, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #60a5fa;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box; /* Important for padding */
+}
+
+.input-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.toggle-link {
+  background: none;
+  color: #60a5fa;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+/* --- DASHBOARD --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+  margin-bottom: 30px;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-logout {
+  background: #ef4444;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.upload-section {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.file-list {
+  display: grid;
+  gap: 15px;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.file-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+.badge {
+  background: #0f172a;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #475569;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-decrypt {
+  background: #10b981;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-delete {
+  background: transparent;
+  color: #94a3b8;
+  padding: 8px;
+}
+
+.btn-delete:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+  border-radius: 6px;
+}
+
+.decrypt-box {
+  display: flex;
+  gap: 5px;
+}
+
+.decrypt-input {
+  background: #0f172a;
+  border: 1px solid #3b82f6;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: 120px;
+}
