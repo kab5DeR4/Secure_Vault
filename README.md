@@ -37,5 +37,3 @@ Secure Vault is a full-stack web application designed for the safe storage and m
    - `npm start`
 
 ## Live demo link
-> *(Add your live demo link here if hosted)*
-[Live Demo](#)
