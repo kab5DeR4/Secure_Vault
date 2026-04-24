@@ -23,7 +23,6 @@ Secure Vault is a full-stack web application designed for the safe storage and m
 - I learned best practices for securing API endpoints and managing state in a React frontend.
 
 ## Screenshots
-> *(Add a screenshot of the vault dashboard here)*
 <img width="1134" height="495" alt="image" src="https://github.com/user-attachments/assets/ea263ace-7f4b-448b-85c7-e34a2f72eb50" />
 ## How to run
 1. Clone the repo: `git clone https://github.com/kab5DeR4/Secure_Vault.git`
